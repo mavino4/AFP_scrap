@@ -1,0 +1,854 @@
+1628039937909	geckodriver	INFO	Listening on 127.0.0.1:41681
+1628039937916	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSvCv6t"
+1628039938187	Marionette	INFO	Marionette enabled
+
+(firefox:10217): GLib-GIO-CRITICAL **: 21:18:58.261: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10217): GLib-GIO-CRITICAL **: 21:18:58.262: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10217): GLib-GIO-CRITICAL **: 21:18:58.262: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSvCv6t/search.json.mozlz4", (void 0)))
+1628039939117	Marionette	INFO	Listening on port 36527
+1628039939131	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628040086352	geckodriver	INFO	Listening on 127.0.0.1:44715
+1628040086357	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePZAtaQ"
+1628040086624	Marionette	INFO	Marionette enabled
+
+(firefox:10473): GLib-GIO-CRITICAL **: 21:21:26.701: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10473): GLib-GIO-CRITICAL **: 21:21:26.701: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10473): GLib-GIO-CRITICAL **: 21:21:26.701: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePZAtaQ/search.json.mozlz4", (void 0)))
+1628040087580	Marionette	INFO	Listening on port 37881
+1628040087673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628040091416	Marionette	INFO	Stopped listening on port 37881
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628040558042	geckodriver	INFO	Listening on 127.0.0.1:49981
+1628040558047	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletY8wuH"
+1628040558305	Marionette	INFO	Marionette enabled
+
+(firefox:10815): GLib-GIO-CRITICAL **: 21:29:18.373: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10815): GLib-GIO-CRITICAL **: 21:29:18.373: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10815): GLib-GIO-CRITICAL **: 21:29:18.373: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletY8wuH/search.json.mozlz4", (void 0)))
+1628040559187	Marionette	INFO	Listening on port 39583
+1628040559261	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628040579290	Marionette	INFO	Stopped listening on port 39583
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628040873387	geckodriver	INFO	Listening on 127.0.0.1:41137
+1628040873393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezyAc2d"
+1628040873658	Marionette	INFO	Marionette enabled
+
+(firefox:11166): GLib-GIO-CRITICAL **: 21:34:33.727: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11166): GLib-GIO-CRITICAL **: 21:34:33.727: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11166): GLib-GIO-CRITICAL **: 21:34:33.727: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezyAc2d/search.json.mozlz4", (void 0)))
+1628040874640	Marionette	INFO	Listening on port 46057
+1628040874708	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628040899334	geckodriver	INFO	Listening on 127.0.0.1:45673
+1628040899339	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoAi7qS"
+1628040899620	Marionette	INFO	Marionette enabled
+
+(firefox:11422): GLib-GIO-CRITICAL **: 21:34:59.708: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11422): GLib-GIO-CRITICAL **: 21:34:59.708: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11422): GLib-GIO-CRITICAL **: 21:34:59.708: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoAi7qS/search.json.mozlz4", (void 0)))
+1628040900507	Marionette	INFO	Listening on port 34215
+1628040900552	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628041067039	Marionette	INFO	Stopped listening on port 34215
+1628041068722	Marionette	INFO	Stopped listening on port 46057
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628041072221	Marionette	INFO	Stopped listening on port 36527
+1628041425406	geckodriver	INFO	Listening on 127.0.0.1:38289
+1628041425411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebGMSYA"
+1628041425684	Marionette	INFO	Marionette enabled
+
+(firefox:14050): GLib-GIO-CRITICAL **: 21:43:45.756: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14050): GLib-GIO-CRITICAL **: 21:43:45.757: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14050): GLib-GIO-CRITICAL **: 21:43:45.757: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebGMSYA/search.json.mozlz4", (void 0)))
+1628041426579	Marionette	INFO	Listening on port 41967
+1628041426627	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628041676623	Marionette	INFO	Stopped listening on port 41967
+1628041703059	geckodriver	INFO	Listening on 127.0.0.1:37993
+1628041703064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEqwXcU"
+1628041703346	Marionette	INFO	Marionette enabled
+
+(firefox:14430): GLib-GIO-CRITICAL **: 21:48:23.422: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14430): GLib-GIO-CRITICAL **: 21:48:23.422: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14430): GLib-GIO-CRITICAL **: 21:48:23.422: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEqwXcU/search.json.mozlz4", (void 0)))
+1628041704284	Marionette	INFO	Listening on port 41423
+1628041704383	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cns.gob.bo"
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://noafiliacion.csbp.com.bo"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://noafiliacion.csbp.com.bo"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://noafiliacion.csbp.com.bo"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://noafiliacion.csbp.com.bo"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://noafiliacion.csbp.com.bo"
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628042014430	Marionette	INFO	Stopped listening on port 41423
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628042039262	geckodriver	INFO	Listening on 127.0.0.1:40251
+1628042040267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0S47SJ"
+1628042040552	Marionette	INFO	Marionette enabled
+
+(firefox:14878): GLib-GIO-CRITICAL **: 21:54:00.635: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14878): GLib-GIO-CRITICAL **: 21:54:00.635: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14878): GLib-GIO-CRITICAL **: 21:54:00.635: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0S47SJ/search.json.mozlz4", (void 0)))
+1628042041343	Marionette	INFO	Listening on port 36195
+1628042041381	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628042112531	Marionette	INFO	Stopped listening on port 36195
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628042131500	geckodriver	INFO	Listening on 127.0.0.1:49929
+1628042132505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3xgg6N"
+1628042132781	Marionette	INFO	Marionette enabled
+
+(firefox:15206): GLib-GIO-CRITICAL **: 21:55:32.852: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15206): GLib-GIO-CRITICAL **: 21:55:32.852: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15206): GLib-GIO-CRITICAL **: 21:55:32.852: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3xgg6N/search.json.mozlz4", (void 0)))
+1628042133771	Marionette	INFO	Listening on port 40999
+1628042133821	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://noafiliacion.csbp.com.bo"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://afiliado.cps.org.bo"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://afiliado.cps.org.bo"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://afiliado.cps.org.bo"
+JavaScript error: resource://gre/actors/DateTimePickerChild.jsm, line 64: TypeError: aElement is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://afiliado.cps.org.bo"
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628042468829	Marionette	INFO	Stopped listening on port 40999
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628042479939	geckodriver	INFO	Listening on 127.0.0.1:35889
+1628042479943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2JJgCP"
+1628042480231	Marionette	INFO	Marionette enabled
+
+(firefox:15668): GLib-GIO-CRITICAL **: 22:01:20.310: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15668): GLib-GIO-CRITICAL **: 22:01:20.310: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15668): GLib-GIO-CRITICAL **: 22:01:20.310: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2JJgCP/search.json.mozlz4", (void 0)))
+1628042481133	Marionette	INFO	Listening on port 46429
+1628042481156	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://190.181.13.35"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://190.181.13.35"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://190.181.13.35"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://190.181.13.35"
+JavaScript error: resource://gre/actors/DateTimePickerChild.jsm, line 64: TypeError: aElement is null
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628042686851	Marionette	INFO	Stopped listening on port 46429
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628042744625	geckodriver	INFO	Listening on 127.0.0.1:42705
+1628042744628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledJ1Vj7"
+1628042744916	Marionette	INFO	Marionette enabled
+
+(firefox:16077): GLib-GIO-CRITICAL **: 22:05:44.991: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16077): GLib-GIO-CRITICAL **: 22:05:44.991: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16077): GLib-GIO-CRITICAL **: 22:05:44.991: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledJ1Vj7/search.json.mozlz4", (void 0)))
+1628042745829	Marionette	INFO	Listening on port 46445
+1628042745844	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1132: NS_ERROR_FAILURE: Can't use PDF.js
+Icon theme "elementary" not found.
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+1628042960889	Marionette	INFO	Stopped listening on port 46445
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628043224945	geckodriver	INFO	Listening on 127.0.0.1:57887
+1628043224948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb6eLfu"
+1628043225223	Marionette	INFO	Marionette enabled
+
+(firefox:16578): GLib-GIO-CRITICAL **: 22:13:45.306: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16578): GLib-GIO-CRITICAL **: 22:13:45.306: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16578): GLib-GIO-CRITICAL **: 22:13:45.306: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb6eLfu/search.json.mozlz4", (void 0)))
+1628043226163	Marionette	INFO	Listening on port 39911
+1628043226266	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628043229767	geckodriver	INFO	Listening on 127.0.0.1:50713
+1628043230774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4DjTis"
+1628043231051	Marionette	INFO	Marionette enabled
+
+(firefox:16807): GLib-GIO-CRITICAL **: 22:13:51.133: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16807): GLib-GIO-CRITICAL **: 22:13:51.133: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16807): GLib-GIO-CRITICAL **: 22:13:51.133: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4DjTis/search.json.mozlz4", (void 0)))
+1628043231998	Marionette	INFO	Listening on port 41123
+1628043232091	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628043249397	Marionette	INFO	Stopped listening on port 41123
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628043251606	Marionette	INFO	Stopped listening on port 39911
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628043262534	geckodriver	INFO	Listening on 127.0.0.1:48087
+1628043262538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelgyZW6"
+1628043262823	Marionette	INFO	Marionette enabled
+
+(firefox:17126): GLib-GIO-CRITICAL **: 22:14:22.899: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17126): GLib-GIO-CRITICAL **: 22:14:22.899: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17126): GLib-GIO-CRITICAL **: 22:14:22.899: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelgyZW6/search.json.mozlz4", (void 0)))
+1628043263786	Marionette	INFO	Listening on port 46585
+1628043263855	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+1628043362381	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628044168337	Marionette	INFO	Stopped listening on port 46585
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628059227369	geckodriver	INFO	Listening on 127.0.0.1:49864
+1628059230439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofiledObzaK"
+1628059232704	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofiledObzaK\\search.json.mozlz4", (void 0)))
+1628059238940	Marionette	INFO	Listening on port 49873
+1628059239914	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+[Parent 13912, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1628060026514	Marionette	INFO	Stopped listening on port 49873
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628138243010	geckodriver	INFO	Listening on 127.0.0.1:64563
+1628138246067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilewprhND"
+1628138247150	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilewprhND\\search.json.mozlz4", (void 0)))
+1628138249850	Marionette	INFO	Listening on port 64571
+1628138250289	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://online.prevision.com.bo"
+1628138439390	Marionette	INFO	Stopped listening on port 64571
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628138455692	geckodriver	INFO	Listening on 127.0.0.1:54556
+1628138458752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilehtjQ4N"
+1628138459413	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilehtjQ4N\\search.json.mozlz4", (void 0)))
+1628138460925	Marionette	INFO	Listening on port 54564
+1628138461437	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://online.prevision.com.bo"
+1628138665673	Marionette	INFO	Stopped listening on port 54564
+1628138673930	geckodriver	INFO	Listening on 127.0.0.1:57231
+1628138676978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilevrTJjK"
+1628138677527	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilevrTJjK\\search.json.mozlz4", (void 0)))
+1628138679137	Marionette	INFO	Listening on port 57239
+1628138679662	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+1628138757076	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1628138763249	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628138951579	Marionette	INFO	Stopped listening on port 57239
+1628138955219	geckodriver	INFO	Listening on 127.0.0.1:57597
+1628138958287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileTUXtIF"
+1628138958860	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileTUXtIF\\search.json.mozlz4", (void 0)))
+1628138961596	Marionette	INFO	Listening on port 57605
+1628138962000	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+1628140196247	Marionette	INFO	Stopped listening on port 57605
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628140210156	geckodriver	INFO	Listening on 127.0.0.1:63796
+1628140213228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileBfBjv0"
+1628140213830	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileBfBjv0\\search.json.mozlz4", (void 0)))
+1628140216475	Marionette	INFO	Listening on port 63804
+1628140216939	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1132: NS_ERROR_FAILURE: Can't use PDF.js
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+1628140448747	Marionette	INFO	Stopped listening on port 63804
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628142407330	geckodriver	INFO	Listening on 127.0.0.1:55991
+1628142411200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofiledsAHM6"
+1628142412411	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofiledsAHM6\\search.json.mozlz4", (void 0)))
+1628142415553	Marionette	INFO	Listening on port 56000
+1628142416044	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628142462737	Marionette	INFO	Stopped listening on port 56000
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628142603633	geckodriver	INFO	Listening on 127.0.0.1:59353
+1628142606692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilejRlc7t"
+1628142607308	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilejRlc7t\\search.json.mozlz4", (void 0)))
+1628142610198	Marionette	INFO	Listening on port 59361
+1628142610411	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628142679456	Marionette	INFO	Stopped listening on port 59361
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628142984433	geckodriver	INFO	Listening on 127.0.0.1:59566
+1628142987505	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileGJkGFl"
+1628142988076	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileGJkGFl\\search.json.mozlz4", (void 0)))
+1628142990844	Marionette	INFO	Listening on port 59574
+1628142991246	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628143012986	Marionette	INFO	Stopped listening on port 59574
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628143213712	geckodriver	INFO	Listening on 127.0.0.1:59666
+1628143216781	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilefdlm4T"
+1628143217415	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilefdlm4T\\search.json.mozlz4", (void 0)))
+1628143220008	Marionette	INFO	Listening on port 59674
+1628143220490	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://static.me.me/static/versions/js/external/facebook_fbevents-2367e6e23a85f8f930a2cb42cd0c8c81ccb3b80a1e5654667fadc01222808659.js, line 24: TypeError: f.__fbeventsModules[a] is not a function
+[Child 15856, MediaDecoderStateMachine #1] WARNING: 21aac485120 OpenCubeb() failed to init cubeb: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:324
+[Child 15856, MediaDecoderStateMachine #1] WARNING: Decoder=21aab1f7c00 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3941
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1628144099847	Marionette	INFO	Stopped listening on port 59674
+1628144519719	geckodriver	INFO	Listening on 127.0.0.1:63417
+1628144522773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileYcPVhw"
+1628144523305	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileYcPVhw\\search.json.mozlz4", (void 0)))
+1628144526294	Marionette	INFO	Listening on port 63425
+1628144526483	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628144844324	Marionette	INFO	Stopped listening on port 63425
+1628131524771	geckodriver	INFO	Listening on 127.0.0.1:50185
+1628131525770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek10T2s"
+1628131526058	Marionette	INFO	Marionette enabled
+
+(firefox:14423): GLib-GIO-CRITICAL **: 22:45:26.140: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14423): GLib-GIO-CRITICAL **: 22:45:26.140: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14423): GLib-GIO-CRITICAL **: 22:45:26.140: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilek10T2s/search.json.mozlz4", (void 0)))
+1628131527126	Marionette	INFO	Listening on port 36417
+1628131527184	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628131545852	Marionette	INFO	Stopped listening on port 36417
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628131716415	geckodriver	INFO	Listening on 127.0.0.1:52375
+1628131716421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRnE1BU"
+1628131716706	Marionette	INFO	Marionette enabled
+
+(firefox:14752): GLib-GIO-CRITICAL **: 22:48:36.775: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14752): GLib-GIO-CRITICAL **: 22:48:36.775: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14752): GLib-GIO-CRITICAL **: 22:48:36.775: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRnE1BU/search.json.mozlz4", (void 0)))
+1628131717594	Marionette	INFO	Listening on port 38037
+1628131717641	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628131981970	Marionette	INFO	Stopped listening on port 38037
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628132032107	geckodriver	INFO	Listening on 127.0.0.1:48971
+1628132032112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb37lqU"
+1628132032378	Marionette	INFO	Marionette enabled
+
+(firefox:15273): GLib-GIO-CRITICAL **: 22:53:52.453: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15273): GLib-GIO-CRITICAL **: 22:53:52.453: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15273): GLib-GIO-CRITICAL **: 22:53:52.453: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb37lqU/search.json.mozlz4", (void 0)))
+1628132033420	Marionette	INFO	Listening on port 33709
+1628132033529	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628132070002	Marionette	INFO	Stopped listening on port 33709
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628227584933	geckodriver	INFO	Listening on 127.0.0.1:50163
+1628227588062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileRjQCX3"
+1628227589913	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileRjQCX3\\search.json.mozlz4", (void 0)))
+1628227593636	Marionette	INFO	Listening on port 50172
+1628227594021	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 12696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628227869007	Marionette	INFO	Stopped listening on port 50172
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628227981954	geckodriver	INFO	Listening on 127.0.0.1:50290
+1628227984999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilevhYb2c"
+1628227986211	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilevhYb2c\\search.json.mozlz4", (void 0)))
+1628227989641	Marionette	INFO	Listening on port 50298
+1628227989839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628228524470	Marionette	INFO	Stopped listening on port 50298
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628221678536	geckodriver	INFO	Listening on 127.0.0.1:61743
+1628221681603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileWfVA7v"
+1628221682191	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileWfVA7v\\search.json.mozlz4", (void 0)))
+1628221685085	Marionette	INFO	Listening on port 61751
+1628221685310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: resource://gre/actors/DateTimePickerChild.jsm, line 64: TypeError: aElement is null
+JavaScript error: resource://gre/actors/DateTimePickerChild.jsm, line 64: TypeError: aElement is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.afp-futuro.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628222903911	Marionette	INFO	Stopped listening on port 61751
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileAw1zmn\\search.json.mozlz4", (void 0)))
+1628222850053	Marionette	INFO	Listening on port 62339
+1628222850419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1132: NS_ERROR_FAILURE: Can't use PDF.js
+1628223049897	Marionette	INFO	Stopped listening on port 62339
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628223264727	geckodriver	INFO	Listening on 127.0.0.1:52500
+1628223267761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileGkntra"
+1628223268326	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileGkntra\\search.json.mozlz4", (void 0)))
+1628223271260	Marionette	INFO	Listening on port 52508
+1628223271474	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/RDRwZ7RcROX_wCxEJ01WeqEX/styles__ltr.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/RDRwZ7RcROX_wCxEJ01WeqEX/styles__ltr.css without a browsingContextID set
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628223929138	Marionette	INFO	Stopped listening on port 52508
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofile22MG0H"
+1628223832602	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofile22MG0H\\search.json.mozlz4", (void 0)))
+1628223835600	Marionette	INFO	Listening on port 59510
+1628223835713	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628223916102	Marionette	INFO	Stopped listening on port 59510
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628223946105	geckodriver	INFO	Listening on 127.0.0.1:59598
+1628223949157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileYrfgz7"
+1628223949759	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileYrfgz7\\search.json.mozlz4", (void 0)))
+1628223952532	Marionette	INFO	Listening on port 59606
+1628223952865	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628224035319	Marionette	INFO	Stopped listening on port 59606
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
