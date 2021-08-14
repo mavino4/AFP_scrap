@@ -852,107 +852,112 @@ JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.m
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1628642702728	geckodriver	INFO	Listening on 127.0.0.1:56235
-1628642702734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevF7avB"
-1628642702998	Marionette	INFO	Marionette enabled
-
-(firefox:5847): GLib-GIO-CRITICAL **: 20:45:03.069: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
-
-(firefox:5847): GLib-GIO-CRITICAL **: 20:45:03.069: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
-
-(firefox:5847): GLib-GIO-CRITICAL **: 20:45:03.069: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevF7avB/search.json.mozlz4", (void 0)))
-1628642703880	Marionette	INFO	Listening on port 41763
-1628642703948	Marionette	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628439474622	geckodriver	INFO	Listening on 127.0.0.1:52584
+1628439497869	geckodriver	INFO	Listening on 127.0.0.1:52594
+1628439588298	geckodriver	INFO	Listening on 127.0.0.1:52605
+1628439822931	geckodriver	INFO	Listening on 127.0.0.1:52652
+1628439981301	geckodriver	INFO	Listening on 127.0.0.1:52670
+1628440008769	geckodriver	INFO	Listening on 127.0.0.1:52680
+1628440052274	geckodriver	INFO	Listening on 127.0.0.1:52689
+1628440055301	mozrunner::runner	INFO	Running command: "C:\\Users\\Sevima SRL\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SEVIMA~1\\AppData\\Local\\Temp\\rust_mozprofilep00Dhz"
+1628440056434	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sevima SRL\\AppData\\Local\\Temp\\rust_mozprofilep00Dhz\\search.json.mozlz4", (void 0)))
+1628440063552	Marionette	INFO	Listening on port 52697
+1628440063987	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628440069505	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
+1628440239217	Marionette	INFO	Stopped listening on port 52697
+1628440271133	geckodriver	INFO	Listening on 127.0.0.1:52810
+1628440274160	mozrunner::runner	INFO	Running command: "C:\\Users\\Sevima SRL\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SEVIMA~1\\AppData\\Local\\Temp\\rust_mozprofilerHTmTT"
+1628440274531	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sevima SRL\\AppData\\Local\\Temp\\rust_mozprofilerHTmTT\\search.json.mozlz4", (void 0)))
+1628440278353	Marionette	INFO	Listening on port 52818
+1628440278439	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
 JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://online.prevision.com.bo"
-console.error: services.settings: 
-  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
-console.error: services.settings: 
-  main/doh-providers local data was corrupted
-console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
-console.error: services.settings: 
-  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
-console.error: services.settings: 
-  main/doh-config local data was corrupted
-console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1628440390548	Marionette	INFO	Stopped listening on port 52818
+1628440586045	geckodriver	INFO	Listening on 127.0.0.1:52932
+1628440589055	mozrunner::runner	INFO	Running command: "C:\\Users\\Sevima SRL\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SEVIMA~1\\AppData\\Local\\Temp\\rust_mozprofileonChSa"
+1628440589486	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sevima SRL\\AppData\\Local\\Temp\\rust_mozprofileonChSa\\search.json.mozlz4", (void 0)))
+1628440593080	Marionette	INFO	Listening on port 52940
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1628440593959	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
-1628643101563	Marionette	INFO	Stopped listening on port 41763
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1628643131595	geckodriver	INFO	Listening on 127.0.0.1:55511
-1628643131602	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLSwNkm"
-1628643131877	Marionette	INFO	Marionette enabled
-
-(firefox:6259): GLib-GIO-CRITICAL **: 20:52:11.948: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
-
-(firefox:6259): GLib-GIO-CRITICAL **: 20:52:11.948: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
-
-(firefox:6259): GLib-GIO-CRITICAL **: 20:52:11.948: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLSwNkm/search.json.mozlz4", (void 0)))
-1628643132782	Marionette	INFO	Listening on port 45519
-1628643132819	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628440602381	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+1628440632425	Marionette	INFO	Stopped listening on port 52940
+1628441020775	geckodriver	INFO	Listening on 127.0.0.1:53378
+1628441023785	mozrunner::runner	INFO	Running command: "C:\\Users\\Sevima SRL\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SEVIMA~1\\AppData\\Local\\Temp\\rust_mozprofile3glYBU"
+1628441024179	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sevima SRL\\AppData\\Local\\Temp\\rust_mozprofile3glYBU\\search.json.mozlz4", (void 0)))
+1628441028047	Marionette	INFO	Listening on port 53386
+1628441028104	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
 JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://online.prevision.com.bo"
-console.error: services.settings: 
-  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
-console.error: services.settings: 
-  main/doh-providers local data was corrupted
-console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
-console.error: services.settings: 
-  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
-console.error: services.settings: 
-  main/doh-config local data was corrupted
-console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://online.prevision.com.bo"
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://online.prevision.com.bo"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://online.prevision.com.bo"
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
-console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
-console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
-JavaScript error: , line 0: uncaught exception: Timeout
-1628646800946	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1628441079374	Marionette	INFO	Stopped listening on port 53386
+1628441306916	geckodriver	INFO	Listening on 127.0.0.1:53555
+1628441309947	mozrunner::runner	INFO	Running command: "C:\\Users\\Sevima SRL\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SEVIMA~1\\AppData\\Local\\Temp\\rust_mozprofile0pFJRz"
+1628441310336	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sevima SRL\\AppData\\Local\\Temp\\rust_mozprofile0pFJRz\\search.json.mozlz4", (void 0)))
+1628441314213	Marionette	INFO	Listening on port 53563
+1628441314262	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js, line 7: TypeError: (intermediate value).month is undefined
-1628649215192	Marionette	INFO	Stopped listening on port 45519
+1628441321607	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
 
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1628441465004	Marionette	INFO	Stopped listening on port 53563
