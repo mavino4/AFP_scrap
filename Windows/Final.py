@@ -9,8 +9,9 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
 import time 
 import datetime 
-download_directory = "/media/F/sevima/CertificadosScrap"
 
+firefox_binary  = r'C:\Users\Sevima SRL\AppData\Local\Mozilla Firefox\firefox.exe'
+selenium_driver = r'C:\Program Files\SEVIMA\Certificados\geckodriver.exe'
 
 # INTRODUCCIÓN DE DATOS 
 
@@ -95,8 +96,8 @@ dict_sites = {
 # Define browser preferences 
 
 options = Options()
-options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
-navegador = webdriver.Firefox(executable_path=r'C:\Program Files\SEVIMA\CertScrap\geckodriver.exe', firefox_options=options )
+options.binary_location = firefox_binary
+navegador = webdriver.Firefox(executable_path=selenium_driver, firefox_options=options )
 tabs = {}
 
 
@@ -115,17 +116,17 @@ tabs = {}
 
 
 # Bloque CNS
-
-driver = navegador.get(dict_sites["cns"])
-tabs["cns"] = navegador.window_handles[0]
-
-# Introducir Datos
-ci_input = navegador.find_element_by_id("txtCI")
-ci_input.send_keys(CI)
-
-fecnac_input = navegador.find_element_by_id("txtFechaNacimiento")
-fecnac_input.send_keys(FEC_NAC)
-
+# 
+# driver = navegador.get(dict_sites["cns"])
+# tabs["cns"] = navegador.window_handles[0]
+# 
+# # Introducir Datos
+# ci_input = navegador.find_element_by_id("txtCI")
+# ci_input.send_keys(CI)
+# 
+# fecnac_input = navegador.find_element_by_id("txtFechaNacimiento")
+# fecnac_input.send_keys(FEC_NAC)
+# 
 
 
 # In[5]:
@@ -133,8 +134,8 @@ fecnac_input.send_keys(FEC_NAC)
 
 # Bloque CSBP
 try : 
-    navegador.execute_script("window.open('about:blank', '_blank');")
-    tabs["csbp"] = navegador.window_handles[1]
+    # navegador.execute_script("window.open('about:blank', '_blank');")
+    tabs["csbp"] = navegador.window_handles[0]
     navegador.switch_to.window(tabs["csbp"])
     navegador.get(dict_sites["csbp"])
 
@@ -183,7 +184,7 @@ cps_dict_ext = {  "BN" : "Beni"
 try : 
 
     navegador.execute_script("window.open('about:blank', '_blank');")
-    tabs["cps"] = navegador.window_handles[2]
+    tabs["cps"] = navegador.window_handles[1]
     navegador.switch_to.window(tabs["cps"])
     navegador.get(dict_sites["cps"])
 
@@ -248,7 +249,7 @@ ssu_dict_exp = {
 try: 
 
     navegador.execute_script("window.open('about:blank', '_blank');")
-    tabs["ssu"] = navegador.window_handles[3]
+    tabs["ssu"] = navegador.window_handles[2]
     navegador.switch_to.window(tabs["ssu"])
     navegador.get(dict_sites["ssu"])
 
@@ -278,37 +279,12 @@ except :
     print("Problemas con la página de SSU")
 
 
-# In[8]:
-
-
-# Bloque prevision 
-try: 
-    navegador.execute_script("window.open('about:blank', '_blank');")
-    tabs["afp_prevision"] = navegador.window_handles[4]
-    navegador.switch_to.window(tabs["afp_prevision"])
-    navegador.get(dict_sites["afp_prevision"])
-
-
-    iframe = navegador.find_element_by_tag_name("iframe")
-
-    navegador.switch_to_frame(iframe)
-
-    ci_input = navegador.find_element_by_id("idNumDoc")
-    ci_input.send_keys(CI)
-
-    
-except:
-    print("Problemas con la página de Prevision")
-
-
-# In[9]:
-
 
 # Bloque afp_futuro
 try : 
 
     navegador.execute_script("window.open('about:blank', '_blank');")
-    tabs["afp_futuro"] = navegador.window_handles[5]
+    tabs["afp_futuro"] = navegador.window_handles[3]
     navegador.switch_to.window(tabs["afp_futuro"])
     navegador.get(dict_sites["afp_futuro"])
 
@@ -331,17 +307,58 @@ try :
 except:
     print("Problemas con la página de AFP-Futuro")
     
-# Potenciales errores 
 
 
-# In[10]:
+# Bloque prevision 
+
+bbva_dict_exp = {
+  "BN" : "Beni" 
+, "CH" : "Chuquisaca"
+, "CB" :"Cochabamba"
+, "LP" : "La Paz"
+, "OR" : "Oruro"
+, "PN" : "Pando"
+, "PT" : "Potosí"
+, "SC" : "Santa Cruz"
+, "TR" : "Tarija"
+, "PE" : "La Paz"  # Atendiendo casos por defecto 
+}
 
 
-#try:
-#    navegador.close()
-#except:
-#    pass
+try: 
+    navegador.execute_script("window.open('about:blank', '_blank');")
+    tabs["afp_prevision"] = navegador.window_handles[4]
+    navegador.switch_to.window(tabs["afp_prevision"])
+    navegador.get(dict_sites["afp_prevision"])
 
+
+    iframe = navegador.find_element_by_tag_name("iframe")
+
+    navegador.switch_to_frame(iframe)
+    
+    
+    ext_ci_input = Select(navegador.find_element_by_name("LRESID    "))
+    ext_ci_input.select_by_visible_text(bbva_dict_exp[EXT_CI])
+
+
+    ci_input = navegador.find_element_by_id("idNumDoc")
+    ci_input.send_keys(CI)
+    
+    captcha_r = navegador.find_element_by_id("texto").click()
+    
+    input("Presione enter despues de resolver el captcha ... ")
+    
+    paterno_input = navegador.find_element_by_name("AAPE1     ")
+    paterno_input.send_keys(PATERNO)
+
+    materno_input = navegador.find_element_by_name("AAPE2     ")
+    materno_input.send_keys(MATERNO)
+
+    nombre_input = navegador.find_element_by_name("ANOM1     ")
+    nombre_input.send_keys(NOMBRES)
+
+except:
+    print("Problemas con la página de Prevision")
 
 # In[11]:
 
